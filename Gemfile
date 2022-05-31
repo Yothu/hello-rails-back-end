@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.1'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 # Ruby linters
 gem 'rubocop', '>= 1.0', '< 2.0'
 
